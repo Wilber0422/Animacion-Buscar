@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #252a34;
+}
+
+.Buscar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #eaeaea;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.Buscar:hover > .Buscar-Txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.Buscar-Btn {
+    color: #000;
+    float: right;
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    background: #eeeeee;
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.Buscar-Txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    transition: .4s;
+    line-height: 20px;
+    width: 0px;
+}
